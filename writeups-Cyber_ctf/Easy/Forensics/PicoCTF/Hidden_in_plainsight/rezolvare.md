@@ -1,42 +1,41 @@
 Problema ne spune clar ca avem o imagine de tip .jpg obsinuita. dar ceva din vedere e ascuns in interiorul fisierului.
 Noi trebuie sa descoperim o sarcina utila ascunsa si sa extragem flagul
 
-Rezolvare:
+**Rezolvare:**
 
-1. vedem ca ne da o idee precum sa descarcam imaginea si sa citim metadatele
-   Noi il descarcam, deschidem imaginea cu comanda:
+1. vedem ca ne da o idee precum sa descarcam imaginea si sa citim metadatele. Noi il descarcam, deschidem imaginea cu comanda:
 
                          xdg-open img.jpg
 
-   Si observam o imagine smechera, ceva de codare, cu un stil negru cu multe coduri si numere, analizand atent nu avem nici-o informatie
+   Si observam o imagine smechera, ceva de codare, cu un stil negru cu multe coduri si numere, analizand atent nu avem nici-o informatie.
 
 
 2. Sa dam seama ce trebuie sa facem la imagine e sa folosim comanda:
 
                       strings img.jpg | head
 
-   Ne afiseaza asta:
+Ne afiseaza asta:
 
-JFIF
-c3RlZ2hpZGU6Y0VGNmVuZHZjbVE9
- $.' ",#
-(7),01444
-'9=82<.342
-!22222222222222222222222222222222222222222222222222
-$3br
-%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-	#3R
-&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-koZ9
-cPp]
-2UG$
-;3/BNq]
-stU*
-,A V
-<jZ9sb]bW
-;w 31W
-*B\!l
- .....
+                                 JFIF
+                                 c3RlZ2hpZGU6Y0VGNmVuZHZjbVE9
+                                 $.' ",#
+                                 (7),01444
+                                 '9=82<.342
+                                 !22222222222222222222222222222222222222222222222222
+                                 $3br
+                                 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+	                         #3R
+                                 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+                                 koZ9 
+                                 cPp]
+                                 2UG$
+                                 ;3/BNq]
+                                 stU*
+                                 ,A V 
+                                 <jZ9sb]bW
+                                 ;w 31W
+                                 *B\!l
+                                 ''''
 
 
 Nimic important aici, si asa am decis sa folosim si comanda:
@@ -44,30 +43,14 @@ Nimic important aici, si asa am decis sa folosim si comanda:
                       exiftool img.jpg
 Si ne afiseaza:
 
-ExifTool Version Number         : 13.25
-File Name                       : img.jpg
-Directory                       : .
-File Size                       : 74 kB
-File Modification Date/Time     : 2025:11:27 14:36:04+02:00
-File Access Date/Time           : 2025:11:27 14:36:27+02:00
-File Inode Change Date/Time     : 2025:11:27 14:36:13+02:00
-File Permissions                : -rw-rw-r--
-File Type                       : JPEG
-File Type Extension             : jpg
-MIME Type                       : image/jpeg
-JFIF Version                    : 1.01
-Resolution Unit                 : None
-X Resolution                    : 1
-Y Resolution                    : 1
-Comment                         : c3RlZ2hpZGU6Y0VGNmVuZHZjbVE9
-Image Width                     : 640
-Image Height                    : 640
-Encoding Process                : Baseline DCT, Huffman coding
-Bits Per Sample                 : 8
-Color Components                : 3
-Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
-Image Size                      : 640x640
-Megapixels                      : 0.410
+                           ExifTool Version Number         : 13.25
+                           File Name                       : img.jpg
+                           Directory                       : . 
+                           File Size                       : 74 kB 
+                           File Type                       : JPEG
+                           File Type Extension             : jpg
+                           MIME Type                       : image/jpeg
+                           Comment                         : c3RlZ2hpZGU6Y0VGNmVuZHZjbVE9
             
 
 
@@ -79,7 +62,7 @@ Observam ca la comment avem un sir ciudat asa cum putem spune, si se vede cu och
  
                      echo -n "c3RlZ2hpZGU6Y0VGNmVuZHZjbVE9" | base64 -d 
 
-    Si ne afiseaza: 
+Si ne afiseaza: 
    
                          steghide:cEF6endvcmQ=                                                                                                                               
 
