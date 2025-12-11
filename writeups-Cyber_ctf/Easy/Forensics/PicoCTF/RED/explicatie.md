@@ -76,11 +76,9 @@ Rezolvare:
                 b2,g,lsb,xy         .. text: "ET@UETPETUUT@TUUTD@PDUDDDPE"  
 
 ---
-MAI PE SCURT !!!
+!!! MAI PE SCURT
 
             Sa aflati mai multe despre zsteg, puteti sa cititi si la Zsteg.md
-
-!!! MAI PE SCURT
 ---
 
 4. Dupa cum putem observa, la *b1,rgba,lsb,xy* avem un cod codificat, in base64
