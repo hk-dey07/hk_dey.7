@@ -32,7 +32,7 @@ Observam ca avem un folder, folosim aceasta comanda:
 Vedem ca avem multe fisiere de la *00* pana la *09*
 
 
-3. Comanda ceea mai usoara sa ne afiseze tot ce contine in acele fisiere, decat sa stai la fiecare aparte sa repeti comanda
+3. Comanda ceea mai usoara sa ne afiseze tot ce contine in acele fisiere, decat sa repeti fiecare data aceeasi comanda, putem folosi:
    folosim comanda aceasta:
 
                                  strings inhere/*
