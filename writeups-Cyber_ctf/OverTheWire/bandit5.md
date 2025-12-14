@@ -96,6 +96,7 @@ Si ne afiseaza:
 1. ll inhere/* | grep 1033 
 
 1.1:  Comanda *grep* e sa caute ceea ce ai tu nevoie prin multe fisiere si foldere
+
 1.2:  /*  ----> aceasta este directorul care citeste tot ce contine in el cu ajutorul (*)
 
 2. ll inhere/*/.file2
