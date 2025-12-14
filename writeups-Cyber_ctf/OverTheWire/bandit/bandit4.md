@@ -17,7 +17,7 @@ Rezolvare:
 
   Si ne afiseaza:
 
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/imagini/llcomanda3.png" width="50%"/></p>
+<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/llcomanda3.png" width="50%"/></p>
 
 
 Observam ca avem un folder, folosim aceasta comanda:
@@ -26,7 +26,7 @@ Observam ca avem un folder, folosim aceasta comanda:
 
   Si ne afiseaza:
 
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/imagini/llcomanda4.1.png" width="50%"/></p>
+<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/llcomanda4.1.png" width="50%"/></p>
 
 
 Vedem ca avem multe fisiere de la *00* pana la *09*

@@ -17,7 +17,7 @@ Rezolvare:
 
    Si ne afiseaza:
 
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/imagini/llcomanda3.png" width="50%"/></p>
+<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/llcomanda3.png" width="50%"/></p>
 
 
 Observam ca avem un folder, folosim aceasta comanda:
@@ -26,7 +26,7 @@ Observam ca avem un folder, folosim aceasta comanda:
 
 Si ne afiseaza:
 
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/imagini/llcomanda5.1.png" width="50%"/></p>
+<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/llcomanda5.1.png" width="50%"/></p>
 
 
 Vedem ca avem multe foldere, de la *00* pana la *19*.
@@ -37,7 +37,7 @@ Vedem ca avem multe foldere, de la *00* pana la *19*.
 
   Si ne afiseaza asta:
 
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/imagini/llcomanda5.2.png" width="50%"/></p>
+<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/llcomanda5.2.png" width="50%"/></p>
 
 
 Dupa ce am analizat, observam ca la fiecare fisier *executabil* care este *-file1* sau cum se observa fiecare permisiune *-rwxr-x---* 
@@ -66,7 +66,7 @@ folosi si aceasta comanda utila:
 
 Si ne afiseaza:
 
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/imagini/llcomanda5.3.png" width="50%"/></p>
+<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/llcomanda5.3.png" width="50%"/></p>
 
 Acum ca am aflat in ce directoare se poate afla, putem folosi urmatoarea comanda.
 

@@ -16,7 +16,7 @@ Rezolvare:
 
   Si afiseaza asta:
  
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/imagini/lscomanda7.png" width="50%"/></p>
+<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/lscomanda7.png" width="50%"/></p>
  
 
 Observam ca avem un fisier de tip *data.txt*

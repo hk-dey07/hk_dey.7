@@ -15,7 +15,7 @@ Rezolvare:
    
    Si afiseaza asta: 
 
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/imagini/lscomanda6.png" width="50%"/></p>
+<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/lscomanda6.png" width="50%"/></p>
 
   Si observam ca nu avem nimic, unde sa putem afla parola.
 
