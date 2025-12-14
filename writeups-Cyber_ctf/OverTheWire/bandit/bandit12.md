@@ -59,6 +59,18 @@ acestor semnături diferite de fișiere online.
 Acest lucru este deosebit de important de știut, deoarece uneori fișierele ar 
 putea să nu aibă finalul corect sau orice fișier pentru a identifica tipul acestuia.
 
+Compresie este o metodă de codificare care are ca scop reducerea dimensiunii originale a unui fișier fără a pierde informații (sau a pierde doar cât mai puțin posibil).
+
+gzip este o comandă de comprimare sau decomprimare (-d) fișiere. 
+Un fișier ‘gzip’ se termină în general cu .gz.
+bzip2 este o altă comandă care permite comprimarea și decomprimarea (-d) fișiere. 
+Un fișier ‘bzip2’ se termină în general cu .bz2.
+An Fișier arhivă este un fișier care conține unul sau mai multe fișiere și metadatele acestora.
+Acest lucru poate permite o portabilitate mai ușoară.
+
+tar este o comandă care creează fișiere de arhivă (-cf). 
+De asemenea, permite extragerea acestor fișiere din nou (-xf). 
+O arhivă tar se termină în general cu .tar.
 
 ```
 
