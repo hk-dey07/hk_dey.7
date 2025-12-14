@@ -43,7 +43,7 @@ Observam ca avem un fisier de tip *data.txt*
 
    Si ne afiseaza:
 
-                       millionth       dfwvzQi4mU0wfNbFOe9RoWskMLg7eEc
+                       millionth       dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
 
 ---
