@@ -92,44 +92,35 @@ Si ne afiseaza:
 ---
 !!EXPLICATIE LA FIECARE COMANDA
 
+1. `ll inhere/* | grep 1033`
+   - `grep 1033` → caută textul "1033" în output
+   - `inhere/*` → asteriscul (`*`) se înlocuiește cu TOATE numele din folderul `inhere`
 
-1. ll inhere/* | grep 1033 
+2. `ll inhere/*/.file2`  
+   - Caută să afișeze fișierul `.file2` din FIECARE folder din `inhere/`
+   - Va arăta doar acolo unde fișierul există
 
-1.1:  Comanda *grep* e sa caute ceea ce ai tu nevoie prin multe fisiere si foldere
+3. `ll inhere/*/.file2 | grep 1033`
+   - Combină cele două: mai întâi listează toate fișierele `.file2`, apoi filtrează doar pe cele cu dimensiunea 1033
 
-1.2:  /*  ----> aceasta este directorul care citeste tot ce contine in el cu ajutorul (*)
+4. `strings inhere/maybehere07/.file2`
+   - `strings` → extrage și afișează doar textul "citibil" dintr-un fișier
 
-2. ll inhere/*/.file2
+!!EXPLICATIE LA PERMISIUNI
 
-2.1: /*/.file2    ----> ne spune unde se afla si in ce folder.
+`drwxr-xr-x` se citește în 3 grupuri:
 
-3. ll inhere/*/.file2 | grep 1033
-
-3.1: aici am folosit in plus cu *grep 1033* pentru a cauta acei octeti
-
-4. strings inhere/maybehere07/.file2
-
-4.1: Comanda *strings* sa citeasca ce e in acel fisier.
-
----
-
-----
-!!EXPLICATIE LA FIECARE APARTE DE PERMISIUNI, EXECUTABILE, ETC
-
-
-1. drwxr-xr-x
-
-  d ---> folder
-  r ---> citire
-  w ---> scriere
-  x ---> executabil
-
+d rwx r-x r-x
+│  │   │   │
+│  │   │   └─ Others (ceilalți): pot citi (r) și intra/executa (x)
+│  │   └─── Group (grupul): pot citi (r) și intra/executa (x)  
+│  └─────── Owner (proprietarul): poate citi (r), scrie (w), intra/executa (x)
+└────────── Directory (folder)
 ---
 
 Felicitari ai rezolvat acest cahllenge
 
-Mentionez faptul ca cu aceea parola ne putem loga la *bandit6*.
-
+Mentionez faptul ca cu aceea parola ne putem loga la bandit6.
 ---
 SUCCES mai departe :)))
 ---
