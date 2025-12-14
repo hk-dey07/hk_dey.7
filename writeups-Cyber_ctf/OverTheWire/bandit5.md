@@ -89,7 +89,7 @@ Si ne afiseaza:
 
                           HasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
----
+----
 !!EXPLICATIE LA FIECARE COMANDA
 
 1. `ll inhere/* | grep 1033`
@@ -112,6 +112,7 @@ Si ne afiseaza:
   
     - `strings` → extrage și afișează doar textul "citibil" dintr-un fișier
 
+---
 !!EXPLICATIE LA PERMISIUNI
 
 `drwxr-xr-x` se citește în 3 grupuri:
@@ -121,9 +122,10 @@ r-x ─── Group (grupul): pot citi (r) și intra/executa (x)
 rwx ─────── Owner (proprietarul): poate citi (r), scrie (w), intra/executa (x)
 
 d ────────── Directory (folder)
+
 ---
 
-Felicitari ai rezolvat acest cahllenge
+Felicitari ai rezolvat acest challenge
 
 Mentionez faptul ca cu aceea parola ne putem loga la bandit6.
 ---
