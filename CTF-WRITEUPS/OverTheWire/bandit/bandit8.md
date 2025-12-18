@@ -17,7 +17,7 @@ Si introducem parola gasita de la bandit7.
 
   Ne afiseaza asta:
 
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/lscomanda8.png" width="50%"/></p>
+<p align="center"><img src="/CTF-WRITEUPS/OverTheWire/bandit/imagini/lscomanda8.png" width="50%"/></p>
 
 
 Observam ca avem un fisier de tip *data.txt*
@@ -28,7 +28,7 @@ Observam ca avem un fisier de tip *data.txt*
   
   Ne afiseaza:
 
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/catcomanda8.1.png" width="50%"/></p>
+<p align="center"><img src="/CTF-WRITEUPS/OverTheWire/bandit/imagini/catcomanda8.1.png" width="50%"/></p>
 
 
 O groaza de parola, aliniate, dar nu stim care e ceea corecta, tinand cont ca enuntul
@@ -40,7 +40,7 @@ Asa ca folosim aceasta comanda:
 
 Si ne afiseaza asta:
 
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/sortcomanda8.2.png" width="50%"/></p>
+<p align="center"><img src="/CTF-WRITEUPS/OverTheWire/bandit/imagini/sortcomanda8.2.png" width="50%"/></p>
 
 
 Observam ca ne afiseza multe parole care se repeta, acela aratand cu `10` si numa o parola care nj se repeta si e una singura care chiar nu se repeta are cifra `1` si acela ar fi:

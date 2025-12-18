@@ -17,7 +17,7 @@ Rezolvare:
 
   Si ne afiseaza:
 
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/llcomanda3.png" width="50%"/></p>
+<p align="center"><img src="/CTF-WRITEUPS/OverTheWire/bandit/imagini/llcomanda3.png" width="50%"/></p>
 
  
 Observam ca avem un folder, si problema ne spune ca parola este stocata in folderul *inhere*

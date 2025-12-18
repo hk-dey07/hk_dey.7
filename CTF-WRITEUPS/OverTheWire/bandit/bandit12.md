@@ -33,7 +33,7 @@ Rezolvare:
 
    Si ne afiseaza:
 
- <p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/xxd12.png" width="50%"/></p>
+ <p align="center"><img src="/CTF-WRITEUPS/OverTheWire/bandit/imagini/xxd12.png" width="50%"/></p>
 
 
   Vedem ca avem siruri de hex-uri.
@@ -83,7 +83,7 @@ O arhivă tar se termină în general cu .tar.
  
    E sa folosim aceste comenzi, cum e si in imagine:
 
- <p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/creare12.png" width="50%"/></p>
+ <p align="center"><img src="/CTF-WRITEUPS/OverTheWire/bandit/imagini/creare12.png" width="50%"/></p>
 
    Dupa comenzile introduse, sa analizem ce sa format la `hexdump_data`
 
@@ -93,7 +93,7 @@ O arhivă tar se termină în general cu .tar.
 
    Si ne afiseaza:
 
- <p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/strings12.1.png" width="50%"/></p>
+ <p align="center"><img src="/CTF-WRITEUPS/OverTheWire/bandit/imagini/strings12.1.png" width="50%"/></p>
 
 
   Dupa analize, trebui sa inversam hexdump-ul, si sa obtinem date reale:
@@ -112,7 +112,7 @@ O arhivă tar se termină în general cu .tar.
  
   Ne afiseaza: 
 
- <p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/compre.png" width="50%"/></p>
+ <p align="center"><img src="/CTF-WRITEUPS/OverTheWire/bandit/imagini/compre.png" width="50%"/></p>
 
   ```
 Notă: După cum sa menționat în partea de teorie, datele reale nu pot fi citite, 
@@ -194,7 +194,7 @@ Iar apoi cu comanda: `gzip -d` am extras fisierul din extensia `.gz`
 
    si ne afiseaza:
 
-  <p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/xxd12.2.png" width="50%"/></p>
+  <p align="center"><img src="/CTF-WRITEUPS/OverTheWire/bandit/imagini/xxd12.2.png" width="50%"/></p>
 
 
    Observam ca nu e totul complet, dar vedem ca la prima linie este `data5.bin` care e un nume de fisier `binar`

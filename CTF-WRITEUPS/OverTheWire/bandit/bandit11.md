@@ -16,7 +16,7 @@ Rezolvare:
 
    Si ne afiseaza:
 
- <p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/lscomanda8.png" width="50%"/></p>
+ <p align="center"><img src="/CTF-WRITEUPS/OverTheWire/bandit/imagini/lscomanda8.png" width="50%"/></p>
 
 Observam ca avem un fisier de tip `data.txt`
 
@@ -40,7 +40,7 @@ Observam ca sa rotit caracterele in Rot13, iar noi trebuie sa decifrem mesajul r
 
   Cum e in aceasta imagine de mai jos:
 
- <p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/cyberchef11.png" width="50%"/></p>
+ <p align="center"><img src="/CTF-WRITEUPS/OverTheWire/bandit/imagini/cyberchef11.png" width="50%"/></p>
 
 
 ---

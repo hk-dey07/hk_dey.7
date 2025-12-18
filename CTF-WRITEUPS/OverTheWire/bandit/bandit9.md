@@ -17,7 +17,7 @@ Rezolvare:
  
    Ne afiseaza asta:
 
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/lscomanda8.png" width="50%"/></p>
+<p align="center"><img src="/CTF-WRITEUPS/OverTheWire/bandit/imagini/lscomanda8.png" width="50%"/></p>
 
 
    Observam ca avem un fisier de tip `data.txt`
@@ -28,7 +28,7 @@ Rezolvare:
 
    Ne afiseaza:
 
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/catcomanda9.1.png" width="50%"/></p>
+<p align="center"><img src="/CTF-WRITEUPS/OverTheWire/bandit/imagini/catcomanda9.1.png" width="50%"/></p>
 
 
   Observam ca ne afiseaza numa caractere ciudate, greu de decifrat, asa ca folosim comanda:
@@ -37,7 +37,7 @@ Rezolvare:
 
    Si ne afiseaza asta:
 
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/stringscomanda9.2.png" hight="50%"/></p>
+<p align="center"><img src="/CTF-WRITEUPS/OverTheWire/bandit/imagini/stringscomanda9.2.png" hight="50%"/></p>
 
 
   multe caractere dar putem sa le citim, enuntul problemei ne spune ca e ceva legat de asta `==` 
@@ -48,7 +48,7 @@ Rezolvare:
 
   SI ne afiseaza asta:
 
-<p align="center"><img src="/writeups-Cyber_ctf/OverTheWire/bandit/imagini/stringscomanda9.3.png" width="50%"/></p>
+<p align="center"><img src="/CTF-WRITEUPS/OverTheWire/bandit/imagini/stringscomanda9.3.png" width="50%"/></p>
 
 
   Observam ca avem parola si aceea este:
