@@ -16,7 +16,9 @@ BUN HAI SA INCEPEM:
 1. Ce am primit?
 
 Un fisier ZIP(challenge.zip) care contine:
+
    a) main - programaul compilat (executabil)
+
    b) main.cpp - codul sursa
 
 O conexiune la un server: *nc dpl.razvan.sh 30002*
@@ -32,7 +34,7 @@ Si obtinem doua fisiere:
 
 3. Citirea codului sursa *main.cpp*
 
-<p align="center"><img src="/home/hack/hk_dey.7/CTF-WRITEUPS/Vianu_CTF/PWN/cpppwn/imagini/main.png" width="50%"/></p>
+<p align="center"><img src="hk_dey.7/CTF-WRITEUPS/Vianu_CTF/PWN/cpppwn/imagini/main.png" width="50%"/></p>
 
 Ce intelegem din cod?
 
