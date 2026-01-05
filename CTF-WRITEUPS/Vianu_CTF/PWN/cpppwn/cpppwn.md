@@ -250,11 +250,11 @@ Adresa de retur din *win()* pointeaza catre nimic valid
 programul crapa si se inchide
 
 
-10. Solutia noastra e sa sarim direct la **system("/bin/sh"), nu la inceputul functiei!
+10. Solutia noastra e sa sarim direct la **system("/bin/sh")**, nu la inceputul functiei!
 
 Privim codul dezassemblat din nou:
 
-<p align="center"><img src="imagini/objdump2.png" width="50%"/></p>
+<p align="center"><img src="imagini/objdump2.png" width="100%"/></p>
 
 Observati importante:
 
