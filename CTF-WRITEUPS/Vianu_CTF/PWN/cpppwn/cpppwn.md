@@ -40,20 +40,23 @@ Ce intelegem din cod?
 
 a) Functia **win()**:
 
-   Afiseaza un mesaj amuzant 
+   Afiseaza un mesaj amuzant
+ 
    Ruleaza **system("/bin/sh")** care deschide un terminal (shell) - ASTA VREM SA O ACCESAM!
 
 b) Functia **main()**:
  
    Declara un buffer de 64 de caractere (**char buf[64]**)
+   
    Afiseaza "Show me what you got"
+   
    Citeste de la tastatura in buffer cu **std::cin>> buf**
 
 c) PROBLEMA MARE: 
 
    **std::cin >> buf** nu verifica cat de mult scrii!!
+   
    Daca scrii mai mult de 64 de caractere, programul va continua sa scrie in memorie peste ale lucruri importante!
-
 
 4. De ce e periculos **std::cin >> buf**?
 
@@ -64,13 +67,17 @@ gandestete ca memoria programului ca o serie de casute (fiecare cu cate un numar
 Cand scrii *ABCDEFGH...* in program:
 
 'A' merge in buf[0]
+
 'B' merge in buf[1]
+
 ...
+
 Cand ai ajuns la 64 de caractere, ai umplut tot buffer-ul
 
 **DAR** daca continui sa scrii:
 
 Caracterul 65 va scrie peste RBP (Base Pointer - important pentru functii)
+
 Caracterul 66-73 vor scrie peste RETURN ADDRESS (CEA MAI IMPORTANTA CASUTA!)
 
 ---
@@ -79,7 +86,9 @@ Caracterul 66-73 vor scrie peste RETURN ADDRESS (CEA MAI IMPORTANTA CASUTA!)
 Ce este RETURN ADDRESS?
 
 Când un program apelează o funcție, el își notează unde să se întoarcă când funcția se termină. 
+
 Dacă noi putem schimba această adresă, putem face programul să sară oriunde vrem noi - 
+
 de exemplu, în funcția win() care ne dă shell!
 
 ---
