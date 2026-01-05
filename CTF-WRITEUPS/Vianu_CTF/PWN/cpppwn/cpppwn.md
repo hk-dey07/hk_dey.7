@@ -161,7 +161,7 @@ Gasim inceputul functiei **win()**:
 
 uitandu-ne mai jos in codul dezassemblat:
 
-<p align="center"><img src="/imagini/objdump1.png" width="50%"/></p>
+<p align="center"><img src="imagini/objdump1.png" width="50%"/></p>
 
 Functia **win()** incepe la adresa **0x4011b9**!
 
