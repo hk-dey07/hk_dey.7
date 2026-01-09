@@ -52,7 +52,7 @@ Si ne afiseaza asta:
 
   /    ---> radacina directorului
 
-  -group si -user  ---> enentul din aceea problema
+  -group si -user  ---> enuntul din aceea problema
 
   -size  ---> de a cauta acei octeti ca din enunt
 
